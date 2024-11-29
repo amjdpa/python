@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>FORM</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-image: url(nature.jpg);background-repeat: no-repeat;background-size: cover;">
+        <h1 style="color: rgb(61, 201, 10);text-align: center;">SURVEY FORM</h1>
+        <div >
+            <table cellpadding="10px"><form>
+                <tr>
+                    <td  colspan="2" style="text-align: center;">Let us Know how we can improve</td>
+                </tr>
+                <tr>
+                    <td><labal style="margin-left: 338px;">*Name</labal></td>
+                    <td><input type="text" name="name" placeholder="Enter your name" required ></td>
+                </tr>
+                <tr>
+                    <td><label style="margin-left: 338px;">*Email</label></td>
+                    <td><input type="email" name="email" placeholder="Enter your Email" required></td>
+                </tr>
+                <tr>
+                    <td><label style="margin-left: 348px;">*Age</label></td>
+                    <td><input type="number" name="age" placeholder="Age" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label style="margin-left: 81px;">Which option best describes your current role?</label></td>
+                    <td><select id="Which option best describes your current role?">
+                        <option value="Student">Student</option>
+                        <option value="developer">developer</option>
+                        <option value="ui/ux designer">ui/ux designer</option>
+                        <option value="software tester">software tester</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="recommend" style="margin-block-end: 100px;">How likely is that you would recommend 
+                        this program to a friend?</label></td>
+                    <td><input type="radio" name="recommend" value="Definitely">Definitely<br>
+                        <input type="radio" name="recommend" value="Maybe">Maybe <br>
+                        <input type="radio" name="recommend" value="Notsure">Notsure <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label style="margin-left: 199px;">What do you like most here</label></td>
+                    <td>
+                        <select>
+                            <option selected disabled>select an option</option>
+                            <option>programming</option>
+                            <option>designing</option>
+                            <option>testing</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="margin-left:10px;"><label>Things that should be improved in the future 
+                        (Check all that apply)?</label></td>
+                    <td>
+                        <input type="checkbox">Front-end Projects<br>
+                        <input type="checkbox">Back-end Projects <br>
+                        <input type="checkbox">Data Visualization <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label style="margin-left: 170px;">Any Comments or Suggestions?</label></td>
+                    <td><textarea rows="4"  cols="30" placeholder="Enter your comments here...."></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><button>SUBMIT</button></td>
+                </tr>
+            </form></table>
+        </div>
+    </body>
+</html>

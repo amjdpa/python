@@ -1,0 +1,16 @@
+div{
+    width:680px;
+    height: 632px;
+    background-color: rgba(247, 247, 247, 0.579);
+    margin-left: 400px;
+    border-radius: 10px;
+    border-color: gray;
+    border: 1px dashed;
+}
+button{
+    background-color: blue;
+    border-radius: 10px;
+    border-spacing: 1px;
+    border: none;
+    
+}
